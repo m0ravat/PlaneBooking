@@ -1,6 +1,8 @@
 import Home from "./Pages/Home/home";
 import Flights from "./Pages/Flights/flights";
 import Contact from "./Pages/Contact/contact";
+import Login from "./Pages/Login/login";
+import Signup from "./Pages/Signup/signup";
 const routes = [
     {
         path:"/",
@@ -13,6 +15,14 @@ const routes = [
     {
         path:"contact",
         element: <Contact />,
+    },
+    {
+        path: "login",
+        element: <Login />,
+    },
+    {
+        path: "signup",
+        element: <Signup />
     }
 ]
 export default routes
